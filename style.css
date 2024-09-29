@@ -1,0 +1,52 @@
+body {
+  background-color:   hsl(257, 40%, 49%);
+  background-image: url("bg-desktop.svg");
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+}
+
+.big{
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+color: aliceblue;
+
+}
+
+.second{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  
+
+}
+
+h3{
+  font-family: sans-serif;
+  font-weight: bold;
+background-color: aliceblue;
+height: 50px;
+width: 130px;
+border-radius: 20px;
+display: flex;
+    justify-content: center;
+    align-items: center;
+    color:  hsl(257, 40%, 49%);
+text-decoration: aliceblue;
+}
+h3:hover {
+  background-color: palevioletred;
+}
+
+
+.head {
+  font-size: 30px;
+  color: white;
+font-family: monospace;
+padding-left: 60px;
+padding-top: 150px;
+}
